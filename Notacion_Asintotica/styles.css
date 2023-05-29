@@ -1,0 +1,25 @@
+.button {
+    display: block;
+    width: 300px; /* incrementamos el ancho */
+    height: 50px;
+    margin: 20px auto;
+    font-size: 18px; /* ajustamos el tamaño de fuente */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    padding: 10px; /* agregamos un poco de padding para asegurar que el texto no está pegado a los bordes del botón */
+}
+.button:hover {
+    background-color: #3e8e41;
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
